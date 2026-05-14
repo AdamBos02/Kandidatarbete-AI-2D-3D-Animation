@@ -49,4 +49,4 @@ Dessa modeller har legat till grund för det arbete som har utförts i detta kan
 - [MMPose](https://github.com/open-mmlab/mmpose)
 - [ViTPose](https://github.com/ViTAE-Transformer/ViTPose)
 - [MotionBERT](https://github.com/Walter0807/MotionBERT)
-- [MotionAGFormer](https://github.com/TaatiTeam/MotionAGFormer) + - [AthletePose3D](https://github.com/calvinyeungck/AthletePose3D)
+- [MotionAGFormer](https://github.com/TaatiTeam/MotionAGFormer) + checkpoint från ([AthletePose3D](https://github.com/calvinyeungck/AthletePose3D))
