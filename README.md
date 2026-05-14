@@ -38,3 +38,11 @@ Videomaterial spelades in med två iPhone 13 i 1080p och 60 fps.
 Övningar som analyserades:
 - Jämfotahopp
 - Hoppsteg med knälyft
+
+## Externa modeller
+Dessa modeller har legat till grund för det arbete som har utförts i detta kandidatarbete
+- [MMPose](https://github.com/open-mmlab/mmpose)
+- [ViTPose](https://github.com/ViTAE-Transformer/ViTPose)
+- [MotionBERT](https://github.com/Walter0807/MotionBERT)
+- [MotionAGFormer](https://github.com/TaatiTeam/MotionAGFormer)
+- [AthletePose3D](https://github.com/calvinyeungck/AthletePose3D)
