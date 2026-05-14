@@ -39,6 +39,11 @@ Videomaterial spelades in med två iPhone 13 i 1080p och 60 fps.
 - Jämfotahopp
 - Hoppsteg med knälyft
 
+## Kod
+I detta GitHub-repo finns all kod som har möjliggjort vårt arbete tillgänglig,
+samt de dependencies och conda-miljöer som har krävts för att använda de 
+externa modellerna.
+
 ## Externa modeller
 Dessa modeller har legat till grund för det arbete som har utförts i detta kandidatarbete
 - [MMPose](https://github.com/open-mmlab/mmpose)
