@@ -1,6 +1,4 @@
 """
-run_3d_no_aligned.py
-─────────────────────
 Kör MotionAGFormer-inferens på ett videoklipp med tillhörande 2D-keypoints
 i Human3.6M-format (genererade av coco_to_motionagformer.py) och sparar:
   - X3D.npy – 3D-koordinater i Human3.6M-format, shape (N_frames, 17, 3)
