@@ -14,4 +14,27 @@ omvandla 2D-video till 3D-animationer av friidrottsrörelser. Egenutvecklade
 arbetsflöden baserade på öppen källkod jämförs med kommersiella lösningar 
 mot referensdata från ett Qualisys rörelsefångstsystem.
 
-## Struktur
+## Modeller och arbetsflöden
+Följande arbetsflöden utvärderades:
+
+| 2D-modell | 3D-modell | Format |
+|-----------|-----------|--------|
+| MMPose (RTMw-x) | MotionBERT | COCO WholeBody → HALPE-26 → Human3.6M |
+| MMPose (RTMw-x) | MotionAGFormer | COCO WholeBody → Human3.6M |
+| ViTPose-Large | MotionBERT | COCO-17 → HALPE-26 → Human3.6M |
+| ViTPose-Large | MotionAGFormer | COCO-17 → Human3.6M |
+| MediaPipe | MediaPipe | BlazePose |
+
+Kommersiella system som utvärderades: QuickMagic och Mimem.
+
+## Datainsamling
+Referensdata samlades in vid Chalmers FUSE Fysiolabb med hjälp av:
+- Qualisys Track Manager 2026.1
+- 12 Miqus M3-kameror
+- Inspelningsfrekvens: 120 fps
+
+Videomaterial spelades in med två iPhone 13 i 1080p och 60 fps.
+
+Övningar som analyserades:
+- Jämfotahopp
+- Hoppsteg med knälyft
