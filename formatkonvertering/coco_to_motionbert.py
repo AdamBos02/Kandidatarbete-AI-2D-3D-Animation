@@ -3,9 +3,9 @@ import numpy as np
 
 # ========= SÖKVÄGAR =========
 # Välj indata: kommentera ut den som inte används
-#JSON_NAMED = "/Users/adambostrom/Desktop/pose_keypoints_named.json"          # MMPose
-JSON_NAMED = "/Users/adambostrom/Desktop/VITpose/ViTPose/vis_results/övning3_keypoints_named.json"  # ViTPose
-OUT_JSON   = "/Users/adambostrom/Desktop/Kandidatarbete/alphapose_halpe26.json"
+#JSON_NAMED = ""          # MMPose
+JSON_NAMED = ""  # ViTPose
+OUT_JSON   = ""
 # ============================
 
 # ========= HALPE-26 KEYPOINT-ORDNING =========
