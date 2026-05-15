@@ -6,9 +6,9 @@ from mmdet.apis import inference_detector, init_detector
 import os
 
 # --- Konfiguration ---
-VIDEO_PATH = "/Users/adambostrom/Desktop/Qualisys mätningar/Indianhopp_viktor/IMG_5478_sync.mp4"
-OUTPUT_VIDEO = "vis_results/övning3_pose.mp4"
-OUTPUT_JSON = "vis_results/övning3_keypoints.json"
+VIDEO_PATH = ""
+OUTPUT_VIDEO = ""
+OUTPUT_JSON = ""
 
 DETECTOR_CONFIG = "demo/mmdetection_cfg/faster_rcnn_r50_fpn_coco.py"
 DETECTOR_CHECKPOINT = "https://download.openmmlab.com/mmdetection/v2.0/faster_rcnn/faster_rcnn_r50_fpn_1x_coco/faster_rcnn_r50_fpn_1x_coco_20200130-047c8118.pth"
