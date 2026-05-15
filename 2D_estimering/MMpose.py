@@ -6,14 +6,14 @@ import numpy as np
 
 # ========= SÖKVÄGAR =========
 # Sökväg till indatavideo samt utdatafiler
-video_in = "/Users/adambostrom/Desktop/Qualisys mätningar/Indianhopp_viktor/IMG_5478_sync.mp4"
-out_video = "/Users/adambostrom/Desktop/pose_overlay.mp4"
+video_in = ""
+out_video = ""
 
 # Två separata JSON-filer sparas:
 # 1) Namngivna keypoints (kropp + fot) för vidare analys
 # 2) Alla 133 keypoints i COCO WholeBody-format
-out_json_named = "/Users/adambostrom/Desktop/pose_keypoints_named.json"
-out_json_all   = "/Users/adambostrom/Desktop/pose_keypoints_all.json"
+out_json_named = ""
+out_json_all   = ""
 # ============================
 
 # Initierar MMPose inferencer med modellvarianten RTMw-x
