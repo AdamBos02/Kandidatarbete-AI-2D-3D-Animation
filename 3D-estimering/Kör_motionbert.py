@@ -20,19 +20,19 @@ import numpy as np
 import imageio
 
 # Lägg till MotionBERT-katalogen i Python-sökvägen
-MOTIONBERT_PATH = '/Users/adambostrom/Desktop/MotionBERT'
+MOTIONBERT_PATH = ''
 sys.path.append(MOTIONBERT_PATH)
 from lib.utils.vismo import render_and_save
 
 # ========= INSTÄLLNINGAR =========
 # Sökväg till originalvideo (används för FPS och renderad output)
-VIDEO_PATH = "/Users/adambostrom/Desktop/Qualisys mätningar/Indianhopp_viktor/IMG_5478_sync.mp4"
+VIDEO_PATH = ""
 
 # Sökväg till 2D-keypoints i HALPE-26-format från coco_to_motionbert.py
-JSON_PATH  = "/Users/adambostrom/Desktop/Kandidatarbete/alphapose_halpe26.json"
+JSON_PATH  = ""
 
 # Katalog där utdatafilerna sparas
-OUT_PATH   = "/Users/adambostrom/Desktop/Qualisys mätningar"
+OUT_PATH   = ""
 
 # Modellkonfiguration och vikter för MotionBERT-varianten FT_MB_ft_h36m
 # Tränad på Human3.6M-datasetet enligt avsnitt 3.2.4 i rapporten
