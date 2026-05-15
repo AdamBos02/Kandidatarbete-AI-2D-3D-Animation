@@ -20,8 +20,8 @@ import json
 import numpy as np
 
 # ========= SÖKVÄGAR =========
-INPUT_JSON  = "vis_results/övning3_keypoints.json"        # Output från ViTPose
-OUTPUT_JSON = "vis_results/övning3_keypoints_named.json"  # MMPose-kompatibelt format
+INPUT_JSON  = ""        # Output från ViTPose
+OUTPUT_JSON = ""  # MMPose-kompatibelt format
 # ============================
 
 # ========= COCO-17 NAMNORDNING =========
