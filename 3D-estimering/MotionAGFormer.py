@@ -40,13 +40,13 @@ plt.switch_backend('agg')
 
 # ========= INSTÄLLNINGAR =========
 # Sökväg till originalvideo (används för FPS och bildstorlek)
-VIDEO_PATH  = '/Users/adambostrom/Desktop/Qualisys mätningar/Indianhopp_viktor/IMG_5478_sync.mp4'
+VIDEO_PATH  = ''
 
 # Sökväg till 2D-keypoints i Human3.6M-format från coco_to_motionagformer.py
-NPZ_PATH    = '/Users/adambostrom/Desktop/Kandidatarbete/MotionAGformer2D.json.npz'
+NPZ_PATH    = ''
 
 # Katalog där utdatafilerna sparas
-OUT_PATH    = '/Users/adambostrom/Desktop/Qualisys mätningar'
+OUT_PATH    = ''
 
 # Modellvikter för MotionAGFormer tränad på AthletePose3D
 MODEL_PATH  = 'checkpoint/motionagformer-s-ap3d.pth.tr'
